@@ -3,7 +3,7 @@
     "description": "Convenient log plug-in, convenient to record various types of logs.",
     "type": "library",
     "require": {
-        "psr/log": "^1.1@master"
+        "psr/log": "^1.1@dev"
     },
     "license": "Apache2.0",
     "authors": [
