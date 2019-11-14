@@ -2,7 +2,8 @@
 
 namespace LiuShuKai\Log;
 
-class LogModel extends \Psr\Log\NullLogger{
+class LogModel extends \Psr\Log\NullLogger
+{
 
     /**
      *  默认日志路径
@@ -112,13 +113,4 @@ class LogModel extends \Psr\Log\NullLogger{
         if (is_dir($dir) || @mkdir($dir, $mode,true)) return TRUE;
         return false;
     }
-}
-
-$aa = ['aa' => 1 ,'bb' => 2];
-
-try{
-    $logModel = new LogModel();
-    $logModel->error('只能转数组',$aa);
-}catch (\Exception $exception){
-    var_dump($exception->getMessage());
 }
