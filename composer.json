@@ -1,0 +1,16 @@
+{
+    "name": "liu_shu_kai/log",
+    "description": "Convenient log plug-in, convenient to record various types of logs.",
+    "type": "library",
+    "require": {
+        "psr/log": "^1.1@dev"
+    },
+    "license": "Apache2.0",
+    "authors": [
+        {
+            "name": "SunshineFF",
+            "email": "780342040@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
