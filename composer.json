@@ -1,5 +1,5 @@
 {
-    "name": "liu_shu_kai/log",
+    "name": "sunshineff/log",
     "description": "Convenient log plug-in, convenient to record various types of logs.",
     "type": "library",
     "require": {
