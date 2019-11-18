@@ -19,7 +19,7 @@
     "autoload": {
         "psr-4": {"": "src/"}
     },
-    "keywords": "log logging",
+    "keywords": ["log","logging"],
     "version": "1.0.1",
     "minimum-stability": "dev"
 }
