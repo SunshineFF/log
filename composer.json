@@ -9,8 +9,17 @@
     "authors": [
         {
             "name": "SunshineFF",
-            "email": "780342040@qq.com"
+            "email": "780342040@qq.com",
+            "role": "Developer"
         }
     ],
+    "support": {
+        "email": "780342040@qq.com"
+    },
+    "autoload": {
+        "psr-4": {"": "src/"}
+    },
+    "keywords": "log logging",
+    "version": "1.0.1",
     "minimum-stability": "dev"
 }

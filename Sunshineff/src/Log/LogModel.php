@@ -1,6 +1,6 @@
 <?php
 
-namespace LiuShuKai\Log;
+namespace Sunshineff\Log;
 
 class LogModel extends \Psr\Log\NullLogger
 {
