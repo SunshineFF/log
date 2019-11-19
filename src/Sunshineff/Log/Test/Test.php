@@ -1,7 +1,7 @@
 <?php
 namespace Sunshineff\Log\Test;
 
-use LiuShuKai\Log\LogModel;
+use Sunshineff\Log\LogModel;
 
 /**
  *  测试代码
