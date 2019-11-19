@@ -19,5 +19,5 @@
     },
     "keywords": ["log","logging"],
     "version": "1.0.6",
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
