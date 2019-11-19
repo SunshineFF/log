@@ -17,6 +17,11 @@
     "support": {
         "email": "780342040@qq.com"
     },
+    "autoload": {
+        "psr-4": {
+            "Sunshineff\\Log\\": "Sunshineff/Log/"
+        }
+    },
     "keywords": ["log","logging"],
     "version": "1.0.6",
     "minimum-stability": "stable"
