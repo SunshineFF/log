@@ -4,6 +4,7 @@ namespace Sunshineff\Log\Test;
 use Sunshineff\Log\LogModel;
 use Sunshineff\Log\Image\Compress;
 use Sunshineff\Log\Image\BatchCompress;
+
 /**
  *  测试代码
  */

@@ -3,14 +3,26 @@
     "description": "Convenient log plug-in, convenient to record various types of logs.",
     "type": "library",
     "require": {
+        "php": ">=5.6",
         "psr/log": "^1.1@dev"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "SunshineFF",
-            "email": "780342040@qq.com"
+            "email": "780342040@qq.com",
+            "role": "Developer"
         }
     ],
-    "minimum-stability": "master"
+    "support": {
+        "email": "780342040@qq.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sunshineff\\Log\\": "Sunshineff/Log/"
+        }
+    },
+    "keywords": ["log","logging"],
+    "version": "1.0.8",
+    "minimum-stability": "stable"
 }
